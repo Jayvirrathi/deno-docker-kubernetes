@@ -11,7 +11,7 @@ docker build . -f .\dockerfile -t jayvirrathi/deno-app:v1
 
 docker run -it --rm -p 5000:5000 jayvirrathi/deno-app:v1
 
-docker push jayvirrathi/nodejs:v1
+docker push jayvirrathi/deno-app:v1
 ```
 
 ### Kubernetes cmd

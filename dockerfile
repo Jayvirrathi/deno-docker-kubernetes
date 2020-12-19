@@ -1,4 +1,4 @@
-FROM jayvirrathi/deno:1.5.2-buster-slim as build
+FROM jayvirrathi/deno:1.6.1-buster-slim as build
 
 COPY ./src/ $DENO_DIR
 

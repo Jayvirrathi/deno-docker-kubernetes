@@ -3,9 +3,9 @@
 
 ### Docker Image
 ```
-docker build . -f .\deno.dockerfile -t jayvirrathi/deno:1.5.2-buster-slim
+docker build . -f .\deno.dockerfile -t jayvirrathi/deno:1.6.1-buster-slim
 
-docker push jayvirrathi/deno:1.5.2-buster-slim
+docker push jayvirrathi/deno:1.6.1-buster-slim
 
 docker build . -f .\dockerfile -t jayvirrathi/deno-app:v1
 

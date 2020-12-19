@@ -1,6 +1,6 @@
 FROM debian:buster-slim
 
-ENV DENO_VERSION=1.5.2
+ENV DENO_VERSION=1.6.1
 
 RUN apt-get -qq update \
  && apt-get -qq install -y --no-install-recommends curl ca-certificates unzip \
